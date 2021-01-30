@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Gerenciamento de Estado com React + Redux + Sagas + Typescript
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  Sistema simples e moderno com ReactJS & Redux.
+</p>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub" src="https://github.com/gabeleonn/fabapar-client/blob/main/license.svg">
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#%EF%B8%8F-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-### `yarn start`
+## 💇🏻‍♂️ Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto 'reminder'. Feito com ReactJS e Redux Sagas. Implementação simples de um countador, com botão de aumentar e diminuir o countador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 🚀 Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tecnologias usadas no projeto:
 
-### `yarn build`
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [React Redux](https://react-redux.js.org/)
+- [Redux Saga](https://redux-saga.js.org/)
+- [Typesafe Actions](https://github.com/piotrwitek/typesafe-actions)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Para testar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> OBS: Instalação do Node.js.
 
-### `yarn eject`
+**Clone o projeto e acesse a pasta**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ git clone https://github.com/gabeleonn/redux-saga.git && cd redux-saga
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Siga os passos abaixo para instalar as dependências com yarn:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Instalar dependências
+$ yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Startar o projeto
+$ yarn start
 
-## Learn More
+# Ótimo, agora basta acessar http://localhost:3000/ para usar o projeto.
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Projeto está sob Linceça MIT - veja a licença em [LICENSE](/LICENSE).
+
+---
+
+Feito por Gabriel Leon 👋 [Acesse meu linkedin](https://www.linkedin.com/in/gabeleonn/)
